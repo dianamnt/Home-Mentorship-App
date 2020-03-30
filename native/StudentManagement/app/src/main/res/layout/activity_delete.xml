@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="30dp"
+        android:text="Are you sure you want to delete?"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDeleteYes"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="Yes"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDeleteNo"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:text="No"
+            android:textColor="@color/white">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+</LinearLayout>
